@@ -1,10 +1,16 @@
-### A music player with copyright free music built with React-Native.
+# A music player with copyright free music built with React-Native.
+
+### Setup
 
 - Install dependencies: *npm install*
 
 - To run, execute: *npx expo start*
 
-- Tap a song in the list to play it. Filter songs by whether your search term is in the artist name or the track title, using the search bar and button.
+### Functionality
+
+- Tap a song in the list to play it. 
+
+- Filter songs by whether your search term is in the artist name or the track title, using the search bar and button.
 
 - Click the X in the search bar to remove filtering.
 
