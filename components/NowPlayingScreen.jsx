@@ -41,7 +41,7 @@ export default function NowPlayingScreen() {
 
   return (
     <View style={styles.container}>
-      {/* Header */}
+  
       <View style={styles.header}>
         <Pressable onPress={() => navigation.goBack()}>
           <Text style={styles.chevron}>˅</Text>
@@ -50,7 +50,7 @@ export default function NowPlayingScreen() {
         <View style={{ width: 24 }} />
       </View>
 
-      {/* Artwork */}
+  
       <View style={styles.artworkWrapper}>
         <Image
           source={require('../assets/album_artwork/cat.jpg')}
@@ -58,7 +58,7 @@ export default function NowPlayingScreen() {
         />
       </View>
 
-      {/* Track Info */}
+   
       <View style={styles.trackInfo}>
         <View>
           <Text style={styles.title} numberOfLines={1}>
@@ -74,7 +74,7 @@ export default function NowPlayingScreen() {
         </Pressable>
       </View>
 
-      {/* Progress */}
+    
       <View style={styles.progressSection}>
         {/* <View style={styles.progressBar}> */}
         <ProgressBar duration={status?.duration} player={player} status={status} id={state.data.id}/>
@@ -85,7 +85,7 @@ export default function NowPlayingScreen() {
         </View>
       </View>
 
-      {/* Controls */}
+     
       <View style={styles.controls}>
         <Pressable style={styles.control} onPress={reverse}>
           <Text style={styles.text}>⏮</Text>
